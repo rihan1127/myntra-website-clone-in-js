@@ -1,0 +1,131 @@
+.bags-item-container{
+    display: inline-block;
+    width: 40%;
+    padding-right: 1px solid #eaeaec;
+    padding-top: 32px;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 6rem;
+}
+.bag-page{
+    
+    margin-left: 10.5%;
+}
+.bag-details-container{
+    margin-top: 16px;
+}
+.price-header{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+    color: #535766;
+}
+.price-item{
+    margin-bottom: 12px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #282c3f;
+}
+.price-item-value{
+    float: right;
+    font-weight: 600;
+}
+.pricedetail-base-discount{
+    color: #03a685;
+}
+.price-footer{
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaec;
+    color: #3e4152;
+    line-height: 16px;
+}
+.btn-place-order{
+    
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border-radius: 2px;
+    border-width: 0;
+    background-color: rgb(255,63,108);
+    margin-top: 10px;
+    padding: 12px 16px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bag-summary{
+   padding-top: 7rem;
+   width: 75%;
+   background: #f06161;
+}
+.bag-panel{
+    display: flex;
+    align-items: center;
+}
+
+
+/* 
+.bag-item-container{
+    margin-bottom: 8px;
+    background: #fff;
+    font-size: 14px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    position: relative;
+    padding: 12px 12px 0;
+}
+.item-left-part{
+
+    position: absolute;
+    background: rgb(255,242,223);
+    height: 148px;
+    width: 111px;
+}
+.item-right-part{
+
+    padding-left: 12px;
+    position: relative;
+    min-height: 148px;
+    margin-left: 111px;
+    margin-bottom: 12px;
+}
+.bag-item-img{
+
+    width: 100%;
+}
+.return-period{
+
+    display: inline-flex;
+    font-size: 14px;
+    padding-top: 8px;
+}
+.return-period-day{
+font-weight: 700;
+margin-right: 4px;
+}
+.delivery-details{
+
+    margin-top: 5px;
+    color: #282c3f;
+    font-size: 12px;
+    letter-spacing: -.1px;
+    margin-bottom: 8px;
+    line-height: 15px;
+}
+.delivery-details-day{
+
+    color: #03a685;
+}
+.remove-cart{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    right: 18px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+} */

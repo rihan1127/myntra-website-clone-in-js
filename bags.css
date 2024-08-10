@@ -1,0 +1,144 @@
+.bag-page{
+padding-top:7rem;
+margin-bottom: 6rem;
+display: flex;
+justify-content: space-around;
+}
+.bag-panel{
+    width: 700px;
+    padding: 0.6rem;
+    background-color:#fff;
+    border: 1px solid  #eaeaec;
+    position: relative;
+    top: 22px;
+    left: 2rem;
+    display: flex;
+    /* z-index: -1; */
+}
+.bag-item-img{
+    width: 100px;
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+}
+.b{
+    padding: 0 1rem;
+}
+.itemname{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.company{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.current-price{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.original-price{
+    font-size: 0.7rem;
+    text-decoration: line-through;
+    color: gray;
+}
+.discount-percentage{
+    font-size: 0.7rem;
+    color: red;
+}
+
+.return-period{
+
+    display: inline-flex;
+    font-size: 14px;
+    padding-top: 8px;
+}
+.return-period-day{
+font-weight: 700;
+margin-right: 4px;
+}
+.delivery-details{
+
+    margin-top: 5px;
+    color: #282c3f;
+    font-size: 12px;
+    letter-spacing: -.1px;
+    margin-bottom: 8px;
+    line-height: 15px;
+}
+.delivery-details-day{
+
+    color: #03a685;
+}
+#close{
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    right: -22rem;
+    padding: 2px;
+    width: 15px;
+    height: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+#close:hover{
+    background-color: rgb(163, 84, 84);
+    color: #fff;
+}
+/* ==================================================================== */
+.bags-item-container{
+    width: 40%;
+    margin-bottom: 8px;
+    background: #fff;
+    font-size: 14px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    position: relative;
+    padding: 12px 12px ;
+    top: 0px;
+    right:0rem;
+    /* z-index: -1; */
+}
+.bag-details-container{
+    margin-top: 16px;
+}
+.price-header{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+    color: #535766;
+}
+.price-item{
+    margin-bottom: 12px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #282c3f;
+}
+.price-item-value{
+    float: right;
+    font-weight: 600;
+}
+.pricedetail-base-discount{
+    color: #03a685;
+}
+.price-footer{
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaec;
+    color: #3e4152;
+    line-height: 16px;
+}
+.btn-place-order{
+    
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border-radius: 2px;
+    border-width: 0;
+    background-color: rgb(255,63,108);
+    margin-top: 10px;
+    padding: 12px 16px;
+    cursor: pointer;
+    color: #fff;
+}
